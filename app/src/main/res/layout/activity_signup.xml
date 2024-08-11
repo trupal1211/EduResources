@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:orientation="vertical"
+    android:background="#efdeff"
+    >
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="109dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+
+            android:src="@drawable/logo"
+            android:transitionName="logo_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="EduResources"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:transitionName="logo_text" />
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+
+                android:text=" learn , adapt , thrive "
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:transitionName="logo_text" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="330dp"
+        android:layout_height="386dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="SignUp to start your journey"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:transitionName="logo_text" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NAME">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:transitionName="password_tran" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"
+            app:counterEnabled="true"
+            app:counterMaxLength="15">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:transitionName="password_tran" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EMAIL">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress"
+                android:transitionName="password_tran" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PHONE">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:transitionName="password_tran" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:transitionName="password_tran" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/GO"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_border"
+        android:onClick="registerUser"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:transitionName="login_signup_tran" />
+
+    <Button
+        android:id="@+id/have_acc"
+        android:layout_width="258dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:padding="0dp"
+        android:text="Already Have an Account? LogIn"
+        android:textColor="#000"
+        android:transitionName="login_signup_tran" />
+</LinearLayout>
