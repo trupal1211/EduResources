@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#efdeff"
+    tools:context=".SemesterSelectionActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Semester"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/semester1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 1"
+        android:textColor="#fff"
+        android:backgroundTint="#00072D"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/semester2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 2"
+        android:textColor="#fff"
+        android:backgroundTint="#00072D"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/semester3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 3"
+        android:textColor="#fff"
+        android:backgroundTint="#00072D"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/semester4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 4"
+        android:textColor="#fff"
+        android:backgroundTint="#00072D"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/semester5_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 5"
+        android:textColor="#fff"
+        android:backgroundTint="#00072D"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/semester6_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 6"
+        android:textColor="#fff"
+        android:backgroundTint="#00072D"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/semester7_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 7"
+        android:textColor="#fff"
+        android:backgroundTint="#00072D"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/semester8_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 8"
+        android:textColor="#fff"
+        android:backgroundTint="#00072D"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>
