@@ -13,14 +13,29 @@
         android:theme="@style/Theme.EduResource"
         tools:targetApi="31">
         <activity
+            android:name=".Sem4"
+            android:exported="false" />
+        <activity
+            android:name=".SemList"
+            android:exported="false" />
+        <activity
+            android:name=".semester_list"
+            android:exported="false" />
+        <activity
+            android:name=".first_page"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity android:name=".signup">
+
             <!-- Optional: add an intent filter if you need this activity to respond to specific intents -->
-            <!-- <intent-filter>
+            <!--
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter> -->
+            </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".MainActivity"
