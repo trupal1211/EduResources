@@ -48,4 +48,4 @@ public class Sem4 extends AppCompatActivity {
             intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             startActivity(intent);
     }
-    }
+}

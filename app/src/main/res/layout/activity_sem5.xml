@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="40dp"
     android:background="#efdeff"
-    tools:context=".SemList">
+    tools:context=".Sem4">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,78 +15,68 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="40dp"
         android:fontFamily="sans-serif-condensed-light"
-        android:text="Select Semester"
+        android:text="Semester 5"
         android:textColor="#000"
         android:textSize="34sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/sem1btn"
+        android:id="@+id/ajt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="Semester 1"
+        android:text="AJT"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/sem2btn"
+        android:id="@+id/ad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="Semester 2"
+        android:text="AD"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/sem3btn"
+        android:id="@+id/tfel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="Semester 3"
+        android:text="TFEL"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/sem4btn"
+        android:id="@+id/se"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="Semester 4"
+        android:text="SE"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/sem5btn"
+        android:id="@+id/co"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="Semester 5"
+        android:text="CO"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/sem6btn"
+        android:id="@+id/eces"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="Semester 6"
-        android:textColor="#fff"
-        android:textSize="16sp" />
-
-    <Button
-        android:id="@+id/sem7btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="22dp"
-        android:background="@drawable/rounded_border"
-        android:text="Semester 7"
+        android:text="ECES"
         android:textColor="#fff"
         android:textSize="16sp" />
 
