@@ -26,7 +26,7 @@ public class first_page extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Intent to navigate to MaterialsActivity
-                Intent intent = new Intent(first_page.this, SemList.class);
+                Intent intent = new Intent(first_page.this, secondpage.class);
                 startActivity(intent);
             }
         });

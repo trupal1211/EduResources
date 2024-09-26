@@ -15,48 +15,48 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="40dp"
         android:fontFamily="sans-serif-condensed-light"
-        android:text="Semester 2"
+        android:text="Semester 1"
         android:textColor="#000"
         android:textSize="34sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/pps2"
+        android:id="@+id/pps1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="C++"
+        android:text="C"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/maths2"
+        android:id="@+id/maths1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="Maths-2"
+        android:text="Maths-1"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/Ph"
+        android:id="@+id/beee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="PHY"
+        android:text="BEEE"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/eng"
+        android:id="@+id/egd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="ENG"
+        android:text="EGD"
         android:textColor="#fff"
         android:textSize="16sp" />
 

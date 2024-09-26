@@ -29,6 +29,22 @@ public class SemList extends AppCompatActivity {
 
        // semester1Button.setOnClickListener(v -> redirectTo(1));
         //semester2Button.setOnClickListener(v -> redirectTo(2));
+        semester1Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(SemList.this, Sem1.class);
+                startActivity(intent);
+
+            }
+        });
+        semester2Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(SemList.this, Sem2.class);
+                startActivity(intent);
+
+            }
+        });
         semester3Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,6 +59,30 @@ public class SemList extends AppCompatActivity {
             public void onClick(View view) {
                 intent = new Intent(SemList.this, Sem4.class);
                 startActivity(intent);
+            }
+        });
+        semester5Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(SemList.this, Sem5.class);
+                startActivity(intent);
+
+            }
+        });
+        semester6Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(SemList.this, Sem6.class);
+                startActivity(intent);
+
+            }
+        });
+        semester7Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(SemList.this, Sem7.class);
+                startActivity(intent);
+
             }
         });
 

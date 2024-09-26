@@ -15,48 +15,58 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="40dp"
         android:fontFamily="sans-serif-condensed-light"
-        android:text="Semester 2"
+        android:text="Semester 7"
         android:textColor="#000"
         android:textSize="34sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/pps2"
+        android:id="@+id/ml"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="C++"
+        android:text="ML"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/do1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/rounded_border"
+        android:text="DO"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/maths2"
+        android:id="@+id/ai"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="Maths-2"
+        android:text="AI"
         android:textColor="#fff"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/Ph"
+        android:id="@+id/dc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="PHY"
+        android:text="DC"
         android:textColor="#fff"
         android:textSize="16sp" />
-
     <Button
-        android:id="@+id/eng"
+        android:id="@+id/wt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:background="@drawable/rounded_border"
-        android:text="ENG"
+        android:text="WT"
         android:textColor="#fff"
         android:textSize="16sp" />
 
